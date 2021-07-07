@@ -1,0 +1,220 @@
+/*Quitando margin y padding a todo el body*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Importando fuentes y definiendo flow*/
+body {
+  /* font-family: "Karla", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+
+/*Dando estilos a la barra de descuento*/
+.discount {
+  background-color: #1cd1b0;
+  height: 23px;
+  
+  font-size: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-left: 20px;
+}
+
+/*Dando estilos a la barra de logo y nombre de la tienda*/
+.top {
+  display: flex;
+  height: 80px;
+  background-color: #00669f;
+  align-items: center;
+  padding-left: 28px;
+  
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.top h1 {
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+/*Definiendo estilos y medidas del contendor del formulario*/
+form {
+  font-family: "Karla", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* height: 621px;
+  width: 428px; */
+  align-items: center;
+  margin: 230px 0 294px 0;
+  border: 0;
+}
+
+legend {
+  font-size: 72px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: #333333;
+}
+
+/*Definiendo medidas y esilos para los input*/
+#user {
+  display: flex;
+  height: 60px;
+  width: 630px;
+  margin: 55px 0 20px 0;
+  border: #000000 solid 1px;
+  padding-left: 10px;
+}
+
+#pass {
+  display: flex;
+  height: 60px;
+  width: 630px;
+  margin: 55px 0 20px 0;
+  border: #000000 solid 1px;
+  padding-left: 10px;
+}
+
+#pass1 {
+  display: flex;
+  height: 60px;
+  width: 630px;
+  margin: 55px 0 20px 0;
+  border: #000000 solid 1px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.elegir{ 
+  display: flex;
+  height: 60px;
+  width: 640px;
+  margin: 55px 0 20px 0;
+  border: #000000 solid 1px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+#name {
+  display: flex;
+  height: 60px;
+  width: 630px;
+  margin: 55px 0 20px 0;
+  border: #000000 solid 1px;
+  padding-left: 10px;
+}
+
+#email {
+  display: flex;
+  height: 60px;
+  width: 630px;
+  margin: 20px 0 20px 0;
+  border: #000000 solid 1px;
+  padding-left: 10px;
+}
+
+textarea {
+  width: 642px;
+  height: 251px;
+  border: #000000 solid 1px;
+}
+
+/*Definiendo medidas y esilos de los botones*/
+.send {
+  background-color: #1cd1b0;
+  width: 300px;
+  height: 53px;
+  border-radius: 23px;
+  border: 0;
+  font-size: 24px;
+  margin-top: 64px;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+}
+
+.send2 {
+  background-color: #1cd1b0;
+  width: 300px;
+  height: 53px;
+  border-radius: 23px;
+  border: 0;
+  font-size: 24px;
+  margin-top: 64px;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  margin-left: 45px;
+}
+.reset {
+  background-color: #888888;
+  width: 300px;
+  height: 53px;
+  border-radius: 23px;
+  border: 0;
+  font-size: 24px;
+  margin-top: 64px;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/*Dadon estilos al la ayuda del form*/
+span {
+  color: #00669f;
+  font-size: 21px;
+  margin-top: 21px;
+}
+p {
+  font-size: 21px;
+  margin-top: 21px;
+}
+
+/*Dando estilos al footer*/
+footer {
+  background-color: #00669f;
+  display: flex;
+  height: 61px;
+  
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+/*media query*/
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  #user {
+    width: 400px;
+  }
+
+  #pass {
+    width: 400px;
+  }
+  .send {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 4768px) {
+  #user {
+    width: 400px;
+  }
+
+  #pass {
+    width: 400px;
+  }
+  .send {
+    width: 400px;
+  }
+}
